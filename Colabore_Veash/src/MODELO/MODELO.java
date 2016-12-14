@@ -37,6 +37,11 @@ public class MODELO {
         R=a+b;
         return R;
     }
+    public int resta(){
+        int R;
+        R=a+b;
+        return R;
+    }
     
     
 }
