@@ -19,6 +19,8 @@ public class Colabore_Veash {
     public static void main(String[] args) {
         // TODO code application logic here
         JOptionPane.showMessageDialog(null, "Oiga mamus colabore veash no shea malita");
+        JOptionPane.showMessageDialog(null, "BUUUUUUUUAAAAAAAAJJAJAJJAJAJJA OK");
+
     }
     
 }
