@@ -5,6 +5,7 @@
  */
 package colabore_veash;
 
+import MODELO.MODELO;
 import javax.swing.JOptionPane;
 
 /**
@@ -18,10 +19,12 @@ public class Colabore_Veash {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        JOptionPane.showMessageDialog(null, "Oiga mamus colabore veash no shea malita");
-        JOptionPane.showMessageDialog(null, "BUUUUUUUUAAAAAAAAJJAJAJJAJAJJA OK");
-        JOptionPane.showMessageDialog(null, "Estupida di algo mas bonito jajaja me asustas");
-        
+       int a,b;
+       a=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número: "));
+       b=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un segundo número: "));
+       MODELO o1=new MODELO(a,b);
+       o1.sumar();
+       JOptionPane.showMessageDialog(null, o1.sumar());
 
     }
     
