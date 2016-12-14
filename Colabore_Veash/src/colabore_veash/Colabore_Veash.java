@@ -20,6 +20,8 @@ public class Colabore_Veash {
         // TODO code application logic here
         JOptionPane.showMessageDialog(null, "Oiga mamus colabore veash no shea malita");
         JOptionPane.showMessageDialog(null, "BUUUUUUUUAAAAAAAAJJAJAJJAJAJJA OK");
+        JOptionPane.showMessageDialog(null, "Estupida di algo mas bonito jajaja me asustas");
+        
 
     }
     
